@@ -1,0 +1,29 @@
+tue-realnames:
+  admin:
+    permissions:
+      edit_own_realname_label: Edit own real name
+    settings:
+      max_label: Maximum real name length
+      min_label: Minimum real name length
+      regex_label: Regular expression for validation
+      unique_label: Require unique realnames?
+      required_label: Real name is required
+      realname_help_label: Help text for full name field in signup form
+      username_help_label: Help text for username field in signup form
+    wrong_driver: You must select "realname" as the display name driver on the <a><strong>Basics Page</strong></a> for this extension to take effect.
+  api:
+    invalid_realname_message: This real name is invalid. Please contact your forum administrator for more information on real name rules.
+  forum:
+    change_realname:
+      submit_button: => core.ref.save_changes
+      title:  => tue-realnames.ref.change_realname
+    edit_user:
+      realnames_heading: => tue-realnames.ref.change_realname
+      realnames_text: Realname
+    settings:
+      change_realname_button: => tue-realnames.ref.change_realname
+    signup:
+      realname_placeholder: Full Name
+
+  ref:
+    change_realname: Change real name

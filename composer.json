@@ -1,0 +1,28 @@
+{
+    "name": "tue/flarum-ext-realnames",
+    "description": "Require users to sign up using their real name",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tue\\Realnames\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Real Names",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-user-tag",
+                "backgroundColor": "#e73230",
+                "color": "#ffffff"
+            }
+        }
+    }
+}
